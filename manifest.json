@@ -1,7 +1,8 @@
 {
-    "name": "roochoochoo",
+    "name": "RooChooChoo",
     "short_name": "rcc",
     "start_url": ".",
-    "background_color": "#eeeeee",
-    "theme_color": "#eeeeee"
+    "id": "/roochoochoo/",
+    "background_color": "#1c1cbd",
+    "theme_color": "#1c1cbd"
 }
