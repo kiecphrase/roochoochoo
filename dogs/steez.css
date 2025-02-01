@@ -1,0 +1,83 @@
+/* GENERAL */
+body {
+    overflow:scroll;
+    background: linear-gradient(to right bottom, rgb(245, 169, 29), rgb(34, 236, 152));
+    
+}
+
+/* STRUCTURAL */
+.abs_holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.flexy{
+    width: 99%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.muz{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+    border-radius: 5px;
+    margin: 0.5rem;
+    border: 2px, tomato, solid;
+}
+
+.yes_seen{
+    display: block;
+}
+
+.no_seen{
+    display: none;
+}
+
+.info_dump{
+    list-style-type: none;
+    line-height: 110%;
+}
+
+.u_want{
+    background-color: cyan;
+    margin: 0.5rem;
+    border: 4px, hotpink, solid;
+}
+
+/* TEXT */
+.big_t{
+    font-size: 4.5rem;
+    font-style: italic;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: crimson;
+}
+.artist_t{
+    font-size: 1.2rem;
+    font-family: Verdana, sans-serif;
+}
+
+.stage_t{
+    font-size: 1rem;
+    font-family: Verdana, sans-serif;
+}
+
+.time_t{
+    font-size: 0.9rem;
+    font-family: Verdana, sans-serif;
+}
+
+.friend_t{
+    font-size: 0.8rem;
+    font-family: Verdana, sans-serif;
+}
+
+/* OTHER */
