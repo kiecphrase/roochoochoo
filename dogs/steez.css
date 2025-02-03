@@ -32,10 +32,6 @@ body {
     border: 2px, tomato, solid;
 }
 
-.yes_seen{
-    display: block;
-}
-
 .no_seen{
     display: none;
 }
@@ -49,6 +45,38 @@ body {
     background-color: cyan;
     margin: 0.5rem;
     border: 4px, hotpink, solid;
+}
+
+.button_flex{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt{
+    background-color: slateblue;
+    color: goldenrod;
+    padding: 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin: 2rem;
+}
+
+.butt:hover{
+    background-color: goldenrod;
+    color: slateblue;
+    padding: 1.6rem;
+    font-size: 1.1rem;
+}
+
+.butt:active{
+    background-color: goldenrod;
+    color: slateblue;
+    padding: 1.6rem;
+    font-size: 1.1rem;
 }
 
 /* TEXT */
