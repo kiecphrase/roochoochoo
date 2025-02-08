@@ -6,7 +6,7 @@ silly little pwa to organize with friends
 
 - get the pwa part working
   - find the origional pwa tutorial I used 2 years ago (done)
-- get the basics of the page set up
+- get the basics of the page set up (done with js, css, general html)
 - determine data strategy
   - could do cookies maybe depending on how caching would work offline
   - maybe do a json
