@@ -95,3 +95,22 @@ function buttclick(the_id){
         }
     }
 }
+
+/*
+
+ARTISTDOUBLE
+--------------------------------------------------------------
+function to help the user identify which artists they want
+to see by changing the style of the artist info block on a
+double click
+--------------------------------------------------------------
+ins:
+    the_id = id of artist double clicked
+
+outs:
+    none
+
+*/
+function artistdouble(the_id){
+    document.getElementById(the_id).classList.toggle("u_want");
+}
