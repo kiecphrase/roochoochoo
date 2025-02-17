@@ -1,6 +1,11 @@
-# roochoochoo
+# [roochoochoo](https://kiecphrase.github.io/roochoochoo/)
 
 silly little pwa to organize with friends
+
+## general idea
+
+Utilize the power of pwa and basic HTML, CSS, and Javascript to make a functional-enough app that can be downloaded on any mobile device. This allows individuals to help map out their Roo experience and organize with friends
+
 
 ## to do
 
@@ -17,5 +22,5 @@ silly little pwa to organize with friends
   - get a way to share what your schedule is
     - json, iso, something else
 - Stretch:
-  - make it pretty
+  - make it pretty (done?)
   - user customization?
