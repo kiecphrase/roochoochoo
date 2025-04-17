@@ -22,6 +22,16 @@ body {
     align-items: center;
 }
 
+.stager{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+}
+
 .muz{
     width: 60%;
     align-items: center;
@@ -87,6 +97,15 @@ body {
     font-weight: bold;
     font-family: Georgia, serif;
     color: crimson;
+}
+
+.sub_t{
+    font-size: 3.5rem;
+    font-style: oblique;
+    text-decoration-line: overline;
+    font-weight: normal;
+    font-family: Verdana, sans-serif;
+    color: rebeccapurple;
 }
 .artist_t{
     font-size: 1.2rem;
