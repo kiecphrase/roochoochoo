@@ -4,7 +4,9 @@ silly little pwa to organize with friends
 
 ## general idea
 
-Utilize the power of pwa and basic HTML, CSS, and Javascript to make a functional-enough app that can be downloaded on any mobile device. This allows individuals to help map out their Roo experience and organize with friends
+Utilize the power of pwa and basic HTML, CSS, and Javascript to make a functional-enough app that can be downloaded on any mobile device. This allows individuals to help map out their Roo experience and organize with friends.
+
+Heavily Inspired by [Quite A Fellow's Bonnaroo App](https://github.com/QuiteAFellow/Bonnaroo-App)
 
 ## to do
 

@@ -265,6 +265,7 @@
     </div>
 
 
+
     <!-- Friday -->
     <div id="friday_artists" class="flexy no_seen">
         <p class="big_t">Friday</p>
@@ -608,13 +609,370 @@
 
         <!-- Buttons -->
         <div class="button_flex">
-            <a id="thurs_2_fri" class="butt" href="#" onclick="buttclick(this.id)"> friday </a>
-            <a id="thurs_save" class="butt" href="#" onclick="pass"> save </a>
+            <a id="fri_2_thurs" class="butt" href="#" onclick="buttclick(this.id)"> thursday </a>
+            <a id="fri_2_sat" class="butt" href="#" onclick="buttclick(this.id)"> saturday </a>
+            <a id="fri_save" class="butt" href="#" onclick="pass"> save </a>
         </div>
     </div>
 
-    <!-- Saturday -->
 
+
+    <!-- Saturday -->
+    <div id="saturday_artists" class="flexy no_seen">
+        <p class="big_t">Saturday</p>
+
+        <!-- What Stage -->
+        <div id="saturday_what" class="stager">
+            <p class="sub_t">What</p>
+            
+            <div id="gigiperez_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">GIGI PEREZ</li>
+                    <li class="time_t">3:00 - 3:45</li>
+                    <li id="gigiperez_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="rave_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">RAVE</li>
+                    <li class="time_t">4:30 - 5:30</li>
+                    <li id="rave_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="beabadoobee_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">BEABADOOBEE</li>
+                    <li class="time_t">6:15 - 7:15</li>
+                    <li id="beabadoobee_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="avrillavigne_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">AVRIL LAVIGNE</li>
+                    <li class="time_t">8:15 - 9:30</li>
+                    <li id="avrillavigne_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="oliviarodrigo_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">OLIVIA RODRIGO (ASL)</li>
+                    <li class="time_t">10:30 - 12:00</li>
+                    <li id="oliviarodrigo_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Which Stage -->
+        <div id="saturday_which" class="stager">
+            <p class="sub_t">Which</p>
+            
+            <div id="thesesinseersandthealtons_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">TSATA</li>
+                    <li class="time_t">2:15 - 3:00</li>
+                    <li id="thesesinseersandthealtons_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="flatlandcavalry_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">FLATLAND CAVALRY</li>
+                    <li class="time_t">3:45 - 4:45</li>
+                    <li id="flatlandcavalry_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="jessiemurph_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">JESSIE MURPH</li>
+                    <li class="time_t">5:30-6:30</li>
+                    <li id="jessiemurph_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="mtjoy_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">MT. JOY</li>
+                    <li class="time_t">7:30 - 8:30</li>
+                    <li id="mtjoy_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="nelly_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">NELLY</li>
+                    <li class="time_t">9:30 - 10:30</li>
+                    <li id="nelly_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="justice_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">JUSTICE</li>
+                    <li class="time_t">12:15 - 1:30</li>
+                    <li id="glassanimals_fri_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Other Stage -->
+        <div id="saturday_other" class="stager">
+            <p class="sub_t">Other</p>
+            
+            <div id="ahee_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">AHEE</li>
+                    <li class="time_t">3:45 - 4:45</li>
+                    <li id="ahee_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="rossy_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">ROSSY</li>
+                    <li class="time_t">5:00 - 6:00</li>
+                    <li id="rossy_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="whatsonot_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">WHAT SO NOT</li>
+                    <li class="time_t">6:15 - 7:15</li>
+                    <li id="whatsonot_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="claptone_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">CLAPTONE</li>
+                    <li class="time_t">7:30 - 8:30</li>
+                    <li id="claptone_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="jadecicada_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">JADE CICADA</li>
+                    <li class="time_t">8:45 - 9:45</li>
+                    <li id="jadecicada_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="rlgrime_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">RL GRIME</li>
+                    <li class="time_t">10:00 - 11:00</li>
+                    <li id="rlgrime_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="crankdat_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">CRANKDAT</li>
+                    <li class="time_t">12:30 - 1:45</li>
+                    <li id="crankdat_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="gorgoncity_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">GORGON CITY</li>
+                    <li class="time_t">2:15 - 5:15</li>
+                    <li id="gorgoncity_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Infinity Stage -->
+
+        <div id="saturday_infinity" class="stager">
+            <p class="sub_t">Infinity</p>
+            
+            <div id="melt_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">MELT</li>
+                    <li class="time_t">1:30 - 2:15</li>
+                    <li id="melt_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="cameronwinter_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">CAMERON WINTER</li>
+                    <li class="time_t">3:00 - 3:45</li>
+                    <li id="cameronwinter_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="marydroppinz_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">MARY DROPPINZ</li>
+                    <li class="time_t">4:45 - 5:30</li>
+                    <li id="ayybo_fri_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="biggigantic_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">BIG GIGANTIC</li>
+                    <li class="time_t">6:30 - 7:30</li>
+                    <li id="biggigantic_sat" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="levity_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">LEVITY</li>
+                    <li class="time_t">8:30 - 9:30</li>
+                    <li id="levity_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="saxsquatch_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">SAXSQUATCH</li>
+                    <li class="time_t">8:30 - 9:30</li>
+                    <li id="saxsquatch_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="blacklizt_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">BLACKLIZT</li>
+                    <li class="time_t">1:45 - 2:45</li>
+                    <li id="blacklizt_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- This Tent -->
+
+        <div id="saturday_this" class="stager">
+            <p class="sub_t">This</p>
+            
+            <div id="thestews_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">THE STEWS</li>
+                    <li class="time_t">2:00 - 2:45</li>
+                    <li id="thestews_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="ziggyalberts_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">ZIGGY ALBERTS</li>
+                    <li class="time_t">3:30 - 4:15</li>
+                    <li id="ziggyalberts_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="dopelemon_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">DOPE LEMON</li>
+                    <li class="time_t">5:00 - 6:00</li>
+                    <li id="dopelemon_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="wavetoearth_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">WAVE TO EARTH</li>
+                    <li class="time_t">6:45 - 7:45</li>
+                    <li id="wavetoearth_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="poolpartysuperjam_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">1970 POOL PARTY SUPER JAM</li>
+                    <li class="time_t">8:45 - 10:15</li>
+                    <li id="poolpartysuperjam_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="kinggizzardlizardwizard_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">KING GIZZ</li>
+                    <li class="time_t">12:15 - 2:15</li>
+                    <li id="kinggizzardlizardwizard_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- That Stage -->
+
+        <div id="saturday_that" class="stager">
+            <p class="sub_t">That</p>
+            
+            <div id="destroyboys_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">DESTROY BOYS</li>
+                    <li class="time_t">1:30 - 2:15</li>
+                    <li id="destroyboys_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="dadifreyr_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">DADI FREYR</li>
+                    <li class="time_t">2:45 - 3:30</li>
+                    <li id="dadifreyr_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="hotmulligan_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">HOT MULLIGAN</li>
+                    <li class="time_t">4:15 - 5:00</li>
+                    <li id="hotmulligan_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="actionbronson_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">ACTION BRONSON</li>
+                    <li class="time_t">5:45 - 6:45</li>
+                    <li id="actionbronson_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="tyla_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">TYLA</li>
+                    <li class="time_t">7:30 - 8:30</li>
+                    <li id="tyla_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="modestmouse_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">MODEST MOUSE</li>
+                    <li class="time_t">9:15 - 10:30</li>
+                    <li id="modestmouse_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+
+            <div id="arcadefire_sat" class="muz" ondblclick="artistdouble(this.id)">
+                <ul class="info_dump">
+                    <li class="artist_t">ARCADE FIRE</li>
+                    <li class="time_t">1:00 - 2:15</li>
+                    <li id="arcadefire_sat_going" class="friend_t" contenteditable="true">who's going?</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="button_flex">
+            <a id="sat_2_fri" class="butt" href="#" onclick="buttclick(this.id)"> friday </a>
+            <a id="sat_2_sun" class="butt" href="#" onclick="buttclick(this.id)"> sunday </a>
+            <a id="sat_save" class="butt" href="#" onclick="pass"> save </a>
+        </div>
+    </div>
 
     <!-- Sunday -->
 
