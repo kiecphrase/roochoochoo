@@ -6,6 +6,31 @@ body {
 }
 
 /* STRUCTURAL */
+.tvoff{
+    position: fixed;
+    left: 2rem;
+    top: 1rem;
+    z-index: 10;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 2px, purple, solid;
+    padding: 0.25rem;
+    color: darkblue;
+    background-color: plum;
+}
+
+.tvoff:hover{
+    position: fixed;
+    left: 2rem;
+    top: 1rem;
+    z-index: 10;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 0.25rem;
+    color: blue;
+    background-color: pink;
+}
+
 .abs_holder {
     position: absolute;
     width: 100%;
@@ -87,6 +112,15 @@ body {
     color: slateblue;
     padding: 1.6rem;
     font-size: 1.1rem;
+}
+
+.fullscheduleimage{
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    width: 2000px;
+    height: 4000px;
+    z-index: 5;
 }
 
 /* TEXT */

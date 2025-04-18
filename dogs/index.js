@@ -186,3 +186,22 @@ function mapmapmap(){
     artists = localStorage.getItem("artists");
     going = localStorage.getItem("going");
 }
+
+
+/*
+
+FULLIMAGE
+--------------------------------------------------------------
+function to toggle a full schedule image.
+--------------------------------------------------------------
+ins:
+    the_id = id of image element
+outs:
+    none
+
+*/
+
+function fullimage(){
+    document.getElementById("theimage").classList.toggle("no_seen");
+    document.getElementById("theimage").classList.toggle("fullscheduleimage");
+}
